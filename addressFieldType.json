@@ -1,7 +1,7 @@
 {
     "$id": "c_Address",
     "$schema": "https://schema.yext.com/config/km/field-type/v1",
-    "description": "",
+    "description": "Custom address field",
     "displayName": "Address",
     "type": {
       "structType": {
@@ -92,8 +92,6 @@
               "stringType": {
                 "stereotype": "SIMPLE"
               }
-            }
-          }
             }
           }
         ]
