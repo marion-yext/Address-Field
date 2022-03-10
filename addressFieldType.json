@@ -93,16 +93,7 @@
                 "stereotype": "SIMPLE"
               }
             }
-          },
-          {
-            "name": "line3",
-            "displayName": "idk - suburb / province or 3rd line",
-            "isRequired": false,
-            "typeId": "string",
-            "type": {
-              "stringType": {
-                "stereotype": "SIMPLE"
-              }
+          }
             }
           }
         ]
