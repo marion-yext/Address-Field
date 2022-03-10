@@ -1,0 +1,111 @@
+{
+    "$id": "c_Address",
+    "$schema": "https://schema.yext.com/config/km/field-type/v1",
+    "description": "",
+    "displayName": "Address",
+    "type": {
+      "structType": {
+        "property": [
+          {
+            "name": "line1",
+            "displayName": "Address Line 1",
+            "isRequired": true,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "line2",
+            "displayName": "Floor, Suite, Unit, etc.",
+            "isRequired": false,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "extraDescription",
+            "displayName": "Display Address",
+            "isRequired": false,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "sublocality",
+            "displayName": "Sublocality",
+            "isRequired": false,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "city",
+            "displayName": "Town/City",
+            "isRequired": true,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "region",
+            "displayName": "County / State",
+            "isRequired": false,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "postalCode",
+            "displayName": "Postal / Zip Code",
+            "isRequired": true,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "countryCode",
+            "displayName": "Country",
+            "isRequired": true,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          },
+          {
+            "name": "line3",
+            "displayName": "idk - suburb / province or 3rd line",
+            "isRequired": false,
+            "typeId": "string",
+            "type": {
+              "stringType": {
+                "stereotype": "SIMPLE"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
